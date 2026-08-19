@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile Webpage</title>
+    <style>
+        /* General Page Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            color: #333333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Container Card */
+        .profile-card {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            border: 1px solid #dddddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Profile Header Section */
+        .profile-header {
+            text-align: center;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+
+        .profile-img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            border: 3px solid #007bff;
+            object-fit: cover;
+        }
+
+        /* Heading Styling */
+        h1 {
+            color: #1a252f;
+            margin: 10px 0 5px 0;
+        }
+
+        .headline {
+            font-size: 1.1rem;
+            color: #007bff;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #2c3e50;
+            border-bottom: 1px solid #eeeeee;
+            padding-bottom: 5px;
+            margin-top: 25px;
+        }
+
+        /* Text Styling */
+        p {
+            line-height: 1.6;
+        }
+
+        /* Skills Section */
+        .skills-list {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        .skills-list li {
+            padding: 4px 0;
+            font-weight: 500;
+        }
+
+        /* Education Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th, td {
+            border: 1px solid #dddddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        /* Contact & Link Styling */
+        .contact-info p {
+            margin: 8px 0;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <!-- Profile Header -->
+        <div class="profile-header">
+            <img src="https://via.placeholder.com/150" alt="Profile Image" class="profile-img">
+            <h1>Guthi Veeresh</h1>
+            <div class="headline">Aspiring Full-Stack Web Developer | Computer Science Student</div>
+            <p>Passionate about crafting dynamic web applications and solving real-world challenges through clean, efficient code.</p>
+        </div>
+
+        <!-- About Me Section -->
+        <h2>About Me</h2>
+        <p><strong>Biography:</strong> I am a highly motivated final-year Computer Science student eager to transition into a professional web development role. I enjoy building frontend interfaces as well as learning scalable backend design patterns.</p>
+        <p><strong>Career Objective:</strong> To secure an entry-level Web Developer position where I can apply my programming skills, collaborate with high-performing teams, and continuously expand my knowledge in modern web stack solutions.</p>
+
+        <!-- Skills Section -->
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>SQL</li>
+            <li>Git & GitHub</li>
+        </ul>
+
+        <!-- Education Section -->
+        <h2>Education</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Degree</th>
+                    <th>College/University</th>
+                    <th>Year</th>
+                    <th>CGPA/Percentage</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>B.Tech in Computer Science</td>
+                    <td>XYZ Institute of Technology</td>
+                    <td>2021 - 2025</td>
+                    <td>8.5 CGPA</td>
+                </tr>
+                <tr>
+                    <td>Higher Secondary (12th)</td>
+                    <td>ABC Junior College</td>
+                    <td>2021</td>
+                    <td>90%</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Contact Section -->
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <p><strong>Email:</strong> guthesiveeresh@example.com</p>
+            <p><strong>Phone:</strong> +91 9876543210</p>
+            <p><strong>LinkedIn:</strong> <a href="https://linkedin.com" target="_blank">linkedin.com/in/guthiveeresh</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com" target="_blank">github.com/guthiveeresh</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
